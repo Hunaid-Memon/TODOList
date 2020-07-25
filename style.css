@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    background-color: darkblue
+}
+h1{
+    color: #4CAF50;
+    height: 100%;
+}
+.style{
+    color:white;
+}
+.btn{
+    background-color: #4CAF50;
+    border: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 6px;
+    margin: 3px;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+
+
+}
+.btn-D{
+    
+    margin-left: 50px;
+    border-radius: 20px;
+}
+.btn-I{
+    margin-left: 0px;
+    border-radius: 20px;
+}
+.text{
+    border-radius: 6px;
+    padding: 13px 12px;
+    font-size: 20px;
+    border: none;
+    display: inline;
+
+}
+.item{
+    border-radius: 6px;
+    padding: 13px 12px;
+    font-size: 30px;
+    color: gainsboro;
+}
+
+.list{
+    list-style-type: none;
+}
+
+
+@media only screen and (max-width: 615px){
+    .text{
+        border-radius: 6px;
+        padding: 10px 10px;
+        font-size: 10px;
+        border: none;
+        display: inline;
+    }
+
+    .btn{
+        background-color: #4CAF50;
+        border: #4CAF50;
+        color: white;
+        padding: 0px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 10px;
+        border-radius: 6px;
+        margin: 3px;
+        width: 80px;
+        height: 37px;
+        cursor: pointer;
+    
+    
+    }
+  
+    .btn-D{
+    
+        margin-left: 20px;
+        border-radius: 20px;
+    }
+    .btn-I{
+        margin-left: 0px;
+        border-radius: 20px;   
+    }
+    .item{
+        border-radius: 6px;
+        padding: 13px 12px;
+        font-size: 20px;
+        color: gainsboro;
+    }
+}
+
